@@ -132,7 +132,8 @@ cd build
 ``` make -j4```
 
 12. Finish the install:
-```cd ~
+```
+cd ~
 
 sudo rm -r /usr/include/opencv4/opencv2
 
@@ -144,7 +145,9 @@ sudo ldconfig
 
 make clean
 
-sudo apt-get update ```
+sudo apt-get update
+```
+
 13. Verify OpenCV Installation
 ```
 python -c 'import cv2; print(cv2.__version__)
