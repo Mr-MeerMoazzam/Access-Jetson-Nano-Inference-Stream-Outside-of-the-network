@@ -155,8 +155,10 @@ python -c 'import cv2; print(cv2.__version__)
 
 14. Install GStreamer and GObject introspection
 
-```sudo apt-get install -y libgstreamer1.0-dev libgirepository1.0-dev
 ```
+sudo apt-get install -y libgstreamer1.0-dev libgirepository1.0-dev
+```
+
 15 Install PyGObject
 
 ```pip install pygobject```
